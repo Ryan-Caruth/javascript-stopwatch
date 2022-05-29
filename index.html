@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Vanilla JavaScript Stopwatch</title>
-</head>
-<body>
-    <div class ='container'>
-        <h1>STOPWATCH</h1>
-        <span id="seconds">00</span>:<span id="minutes">00</span>:<span id="hours">00</span><br/>
-        <button id = "button-start">Start</button>
-        <button id = "button-stop">Stop</button>
-        <button id= = "button-reset">Reset</button>
-    </div>  
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>STOPWATCH</h1>
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="millisecond">00</span>
+      <br />
+      <button id="button-start" type="button" onclick="start()">Start</button>
+      <button id="button-stop" type="button"  onclick="pause()">Stop</button>
+      <button id="button-reset" type="button" onclick="restart()">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

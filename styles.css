@@ -11,6 +11,6 @@ html, body {
 }
 
 
-#seconds, #minutes, #hours {
+#seconds, #minutes, #hours, #millisecond {
     font-size: 2em;
 }
