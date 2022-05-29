@@ -6,6 +6,11 @@ html, body {
     background-image: linear-gradient(to bottom right, rgb(255, 166, 0), rgb(135, 17, 17));
 }
 
-h1 {
+.container {
     text-align: center;
+}
+
+
+#seconds, #minutes, #hours {
+    font-size: 2em;
 }

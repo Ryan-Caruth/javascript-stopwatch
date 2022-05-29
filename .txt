@@ -1,5 +1,5 @@
-[] - Text in middle of screen showing STOPWATCH
-[] - Background to be an orange gradient
+[x] - Text in middle of screen showing STOPWATCH
+[x] - Background to be an orange gradient
 [] - Start button when pressed starts time
 [] - Stop button when pressed stops time
 [] - Reset button when pressed resets time to 00.00
