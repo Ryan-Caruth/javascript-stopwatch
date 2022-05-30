@@ -10,10 +10,15 @@
   <body>
     <div class="container">
       <h1>STOPWATCH</h1>
-      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="millisecond">00</span>
+      <div id="stopwatch" class="noblink">
+        <span id="hours">00</span>:<span id="minutes">00</span>:<span
+          id="seconds"
+          >00</span
+        >:<span id="millisecond">000</span>
+      </div>
       <br />
       <button id="button-start" type="button" onclick="start()">Start</button>
-      <button id="button-stop" type="button"  onclick="pause()">Stop</button>
+      <button id="button-stop" type="button" onclick="pause()">Stop</button>
       <button id="button-reset" type="button" onclick="restart()">Reset</button>
     </div>
 
