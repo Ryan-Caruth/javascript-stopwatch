@@ -46,6 +46,11 @@ const restart = () => {
   clearInterval(blinkSpeed);
 };
 
+const lap = () => {
+  lapNow = `${hour}:${minute}:${second}:${millisecond}`
+  document.getElementById("lapRecord").innerText += lapNow
+}
+
 //Create the timer function to check the time passed
 const timer = () => {
   if ((millisecond += 1) === 1000) {
